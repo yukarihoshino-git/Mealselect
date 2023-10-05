@@ -1,0 +1,83 @@
+
+ 
+#main{
+    width:100%;
+
+}
+
+.calendar{
+    width: 95%;
+    border-radius: 3%;
+    margin-left: 1rem;
+    background-color: rgba(255, 127, 80, 0.034);
+}
+
+.fc-sun { color: red; }  /* 日曜日 */
+.fc-sat { color: blue; } /* 土曜日 */
+
+.fc-h-event .fc-event-title-container {
+    background-color: rgba(199, 99, 44, 0.813);
+    text-align: center;
+    padding:0.1rem 0;
+}
+
+.fc-daygrid-event {
+    border-color:rgba(210, 105, 30, 0.671);
+
+}
+
+.fc .fc-col-header-cell-cushion {
+    color: rgba(117, 112, 112, 0.938);
+    text-decoration: none;
+}
+
+.fc .fc-daygrid-day-number  {
+    color: rgba(117, 112, 112, 0.938);
+    font-size: medium;
+    text-decoration: none;
+}
+
+.fc .fc-daygrid-more-link {
+    color:rgba(210, 105, 30, 0.671);
+}
+
+.fc .fc-toolbar-title {
+    color: rgba(117, 112, 112, 0.938);
+}
+
+.fc .fc-button-group > .fc-button {
+    background-color: rgb(148, 86, 42);
+    border-color:rgb(152, 94, 53);
+
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active, .fc .fc-button-primary:not(:disabled):active {
+    background-color: rgb(86, 50, 24);
+    border-color:rgb(97, 61, 35);
+}
+
+.fc .fc-button-primary:disabled {
+    background-color: rgb(86, 50, 24);
+    border-color:rgb(97, 61, 35);
+}
+
+.fc .fc-button-primary {
+    background-color: rgb(86, 50, 24);
+    border-color:rgb(97, 61, 35);
+}
+
+.fc-theme-standard .fc-list-day-cushion {
+    background-color: rgba(255, 127, 80, 0.126);
+}
+
+.fc-direction-ltr .fc-list-day-text, .fc-direction-rtl .fc-list-day-side-text {
+    color: rgba(117, 112, 112, 0.938);
+}
+
+.fc-direction-ltr .fc-list-day-side-text, .fc-direction-rtl .fc-list-day-text {
+    color: rgba(117, 112, 112, 0.938);
+}
+
+.fc .fc-list-event-dot {
+    border: coral;
+}

@@ -1,0 +1,238 @@
+
+ 
+#main{
+    width:100%;
+}
+
+.calendar{
+    width: 95%;
+    border-radius: 3%;
+    margin-left: 1rem;
+}
+
+.addmenu{
+    border-radius: 40px;
+    border:1.5px solid rgb(240, 181, 114);
+    background-color:  rgb(255 136 16 / 27%)
+}
+
+.input{
+    border: none;
+}
+
+
+.container-fluid{
+    height:100%;
+}
+
+
+.d-flex{
+    border-radius: 40px;
+
+}
+
+/* .bg-body{
+
+} */
+
+.form-control {
+    width:80%;
+    margin:auto;
+}
+
+.h4{
+font-family: 'Exo', sans-serif;
+color: rgba(117, 112, 112, 0.938);
+}
+
+.h6{
+    font-family: 'Exo', sans-serif;
+    color: rgba(117, 112, 112, 0.938);
+}
+
+  .header div{
+    float: left;
+    color: rgba(117, 112, 112, 0.938);
+    font-family: 'Exo', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+  }
+    
+  .login{
+    width: 100%;
+    padding: 10px;
+    z-index: 2;
+  }
+ 
+  .login input[type=text]{
+    width: 250px;
+    height: 30px;
+    background: rgb(255 255 255 / 0%);
+    /* border: 1.5px solid rgba(117, 112, 112, 0.938);
+    border-radius: 2px; */
+    border:none;
+    color: rgba(117, 112, 112, 0.938);
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+  }
+
+  .login input[type=email]{
+    width: 250px;
+    height: 30px;
+    background: rgb(255 255 255 / 0%);
+    border: 1.5px solid rgba(117, 112, 112, 0.938);
+    border-radius: 2px;
+    color: rgba(117, 112, 112, 0.938);
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+  }
+  
+  .login input[type=password]{
+    width: 250px;
+    height: 30px;
+    background: rgb(255 255 255 / 0%);
+    border: 1.5px solid rgba(117, 112, 112, 0.938);
+    border-radius: 2px;
+    color: rgba(117, 112, 112, 0.938);
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+ 
+  }
+
+  .login input[type=button]{
+    width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+  }
+  
+  button {
+    width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #a18d6c;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+  }
+  
+  .login button :hover{
+    opacity: 0.8;
+  }
+  
+  .login input[type=button] :hover{
+    opacity: 0.8;
+  }
+
+  .login button:active{
+    opacity: 0.6;
+  }
+
+  .login input[type=button]:active{
+    opacity: 0.6;
+  }
+  
+  .login input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+  }
+  
+  .login input[type=email]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+  }
+
+  .login input[type=password]:focus{
+    outline: none;
+    border: 1px solid rgba(255,255,255,0.9);
+  }
+  
+  .login input[type=button]:focus{
+    outline: none;
+  }
+
+  .login button:focus{
+    outline: none;
+  }
+  
+  ::-webkit-input-placeholder{
+     color: rgba(255,255,255,0.6);
+  }
+  
+  ::-moz-input-placeholder{
+     color: rgba(255,255,255,0.6);
+  }
+
+.confirm-info{
+    width: 250px;
+    height: 30px;
+    background: rgb(255, 255, 255, 0.874);
+    border: 1.5px solid rgba(255, 255, 255, 0.874);
+    border-radius: 2px;
+    color: #6e2b02;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.alert{
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background: rgba(236, 189, 113, 0.671);
+}
+
+
+.login a{
+    display: inline-block;
+    text-decoration: none;
+    width: 260px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+
+p{
+    font-size: 1rem;
+    font-family: 'Exo', sans-serif;
+    color: rgba(117, 112, 112, 0.938);
+    
+}
+
+.d-flex .align-items-center .py-4 .addmenu{
+    border-color: coral;
+}

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ asset('/css/addmenu.css')}}">
 <x-layout-top>
-    <main id ="main">{{ Auth::id() }}
+    <main id ="main">{{ Auth::id() }}{{ $space_id['space_id']}}
     {{ Auth::id() }}{{ $space_id['space_id']}}
        <div class="col-xs-11 col-sm-10 col-md-10 offset-xs-1 offset-sm-1 offset-md-1 p-5 ">
             <div class="d-flex align-items-center py-4 addmenu">

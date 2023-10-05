@@ -227,12 +227,25 @@ color: rgba(117, 112, 112, 0.938);
 
 
 p{
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Exo', sans-serif;
     color: rgba(117, 112, 112, 0.938);
+
     
 }
 
 .d-flex .align-items-center .py-4 .addmenu{
     border-color: coral;
+}
+
+input .color{
+  color: rgba(117, 112, 112, 0.938);
+}
+
+.footer{
+  margin:1rem;
+  width: 95%;
+  height: 0.5rem;
+  background-color: rgba(156, 122, 66, 0.877);
+  border-radius: 5px;
 }

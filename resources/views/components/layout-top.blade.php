@@ -92,7 +92,9 @@
 
 </main>
 <footer>
-        <p>フッター</p>
+<div class = "footer">
+</div>
+
 </footer>
 </body>
 </html>

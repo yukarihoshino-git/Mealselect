@@ -44,7 +44,9 @@
 
 <main id = "main">
     <div class="user_id">
-{{ Auth::id() }}
+        <div class ="footer">
+<!-- {{ Auth::id() }} -->
+</div>
     </div>
     <div class ="calendar">
         <div id='calendar'>

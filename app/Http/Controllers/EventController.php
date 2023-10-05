@@ -27,7 +27,7 @@ class EventController extends Controller
                 \DB::commit();
             }catch(\Throwable $e){
                 \DB::rollback();
-                dd($e);
+                // dd($e);
                 abort(500);
             }
             return view('calendar');
@@ -106,7 +106,7 @@ class EventController extends Controller
                     \DB::commit();
                 }catch(\Throwable $e){
                     \DB::rollback();
-                    dd($e);
+                    // dd($e);
                     abort(500);
                 }
             return view('calendar');
@@ -143,10 +143,10 @@ class EventController extends Controller
                 \DB::commit();
             }catch(\Throwable $e){
                 \DB::rollback();
-                dd($e);
+                // dd($e);
                 abort(500);
             }
-            return view('home.addmenbercomplete');
+            return view('home.index');
         }
 
         /**

@@ -81,3 +81,11 @@
 .fc .fc-list-event-dot {
     border: coral;
 }
+
+.footer{
+    margin:1rem;
+    width: 95%;
+    height: 0.5rem;
+    background-color: rgba(156, 122, 66, 0.877);
+    border-radius: 5px;
+  }
